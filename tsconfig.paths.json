@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "class-validator": ["node_modules/class-validator"],
+      "@nestjs/*": ["node_modules/@nestjs/*"],
+      "typeorm": ["node_modules/typeorm"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "node_modules/@types/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
